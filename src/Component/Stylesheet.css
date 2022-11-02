@@ -1,0 +1,39 @@
+.navmenu{
+  height:50px;
+  width:100%;
+  background-color: rgb(58, 11, 19);
+  font-size: 18px;
+  color: white;
+  font-style: italic;
+}
+.con_box{
+  background-color:rgb(213, 172, 172);
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 50px;
+  row-gap: 20px;
+}
+.Con{
+  width:300px;
+  height:100px;
+  background-color: white;
+  border-radius: 5px;
+  margin-left: 65px;
+  margin-top: 20px;
+  
+}
+:hover.Con{
+   -webkit-box-shadow: 0 0 5px 5px rgb(226, 222, 222);
+   -moz-box-shadow: 0 0 5px 5px rgb(226, 222, 222);
+   box-shadow: 0 0 5px 5px rgb(226, 222, 222);
+}
+
+.name_con{
+  font-size: 22px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+.img{
+  width:50px;
+  height: 50px;
+}
